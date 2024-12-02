@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95EEF900-51E6-4C22-BA5A-4743298C98AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{3CDEEE95-08DF-4337-B3B8-3D5C0B4DC06E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A7E72748-40A0-414A-B5B5-A3107DA698A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{F9513BAC-E0B0-45DD-82AB-BEDC09C8BA7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Api", "src\API\Evently.Api\Evently.Api.csproj", "{04E47A51-660E-4FB7-9C14-78EB209C3622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Modules.Events.Api", "src\Modules\Events\Evently.Modules.Events.Api\Evently.Modules.Events.Api.csproj", "{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E47A51-660E-4FB7-9C14-78EB209C3622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E47A51-660E-4FB7-9C14-78EB209C3622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E47A51-660E-4FB7-9C14-78EB209C3622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E47A51-660E-4FB7-9C14-78EB209C3622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CDEEE95-08DF-4337-B3B8-3D5C0B4DC06E} = {95EEF900-51E6-4C22-BA5A-4743298C98AF}
+		{A7E72748-40A0-414A-B5B5-A3107DA698A5} = {95EEF900-51E6-4C22-BA5A-4743298C98AF}
+		{F9513BAC-E0B0-45DD-82AB-BEDC09C8BA7B} = {A7E72748-40A0-414A-B5B5-A3107DA698A5}
+		{04E47A51-660E-4FB7-9C14-78EB209C3622} = {3CDEEE95-08DF-4337-B3B8-3D5C0B4DC06E}
+		{C2A1B2CE-A2ED-4A1B-B986-8A38E4FA43BE} = {F9513BAC-E0B0-45DD-82AB-BEDC09C8BA7B}
+	EndGlobalSection
+EndGlobal
