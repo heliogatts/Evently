@@ -1,1 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Evently.Common.Domain\Evently.Common.Domain.csproj" />
+  </ItemGroup>
+</Project>

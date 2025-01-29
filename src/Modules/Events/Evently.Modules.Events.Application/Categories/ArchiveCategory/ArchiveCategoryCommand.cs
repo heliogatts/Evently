@@ -1,4 +1,4 @@
-﻿using Evently.Modules.Events.Application.Abstractions.Messaging;
+﻿using System.Windows.Input;
 
 namespace Evently.Modules.Events.Application.Categories.ArchiveCategory;
 
