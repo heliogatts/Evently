@@ -6,8 +6,7 @@ using Serilog;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog((context, loggerConfig) => 
-    loggerConfig.ReadFrom.Configuration(context.Configuration));
+builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -32,8 +31,6 @@ if (app.Environment.IsDevelopment())
 
     app.ApplyMigrations();
 }
-
-app.UseHttpsRedirection();
 
 EventsModule.MapEndpoints(app);
 
