@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  evently.api:
+    build:
+      context: "C:\\Users\\helio\\Downloads\\Rascunhos\\evently"
+      dockerfile: "src/API/Evently.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Evently.Api.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eventlyapi:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\helio\\Downloads\\Rascunhos\\evently\\src\\API\\Evently.Api:/app:rw"
+    - "C:\\Users\\helio\\Downloads\\Rascunhos\\evently:/src:rw"
+    - "C:\\Users\\helio\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
